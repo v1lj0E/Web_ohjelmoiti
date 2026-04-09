@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muotouluja</title>
+    <link rel="stylesheet" href="burgir.css">
+
+
+  <nav>
+    <span class="logo">Muotoiluja</span>
+    <button class="burger" id="burgerBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <div class="menu" id="menu">
+    <a href="elementtejä.html">Elementit</a>
+    <a href="muotouluja.html">Muotouluja</a>
+    <a href="">Sivu 3</a>
+    <a href="">Sivu 4</a>
+  </div>
+
+  <script>
+    const burger = document.getElementById('burgerBtn');
+    const menu = document.getElementById('menu');
+
+    burger.addEventListener('click', function () {
+      menu.classList.toggle('open');
+      burger.classList.toggle('open');
+    });
+  </script>
+
+</head>
+ <h1>HTML-moutoilua</h1>
+<body>
+    <h2>Tekstiä</h2>
+<body>
+    
+</body>
+<div style="
+  background: white;
+  border: 1px solid #999;
+  padding: 12px 16px;
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+">
+  HTML:ssa on paljon muotoiluelementtejä. Tekstiä voi esimerkiksi <b>lihavoida</b> (b) tai <strong>vahventaa</strong> (strong). Teksti voi olla <small>pientä</small> (small) tai se voi olla <sub>alaviite</sub> (sub) tai <sup>yläviite</sup> (sup). On myös mahdollista merkitä <ins>lisätty teksti</ins> (ins) ja vastaavasti <del>poistettu teksti</del> (del). Tekstiä voi myös <mark>korostaa</mark> (mark).
+  <br><br>
+  <i>"Aika hienoa"</i> (i), sanoi tietotekniikan opettaja.
+  <br><br>
+  <em>"Mutta pitää painottaa, että liiat muotoilut vaikeuttavat tekstin lukemista"</em> (em), sanoivat viestinnän opettaja ja erityisopettaja kuin yhdestä suusta.
+</div>
+</body>
+<body>
+    <h2>Taulukko</h2>
+</body>
+<body>
+    <table border="1">
+  <thead>
+    <tr>
+      <th colspan="8">Maaliskuu 2026</th>
+    </tr>
+    <tr>
+      <th>Vk</th>
+      <th>Ma</th>
+      <th>Ti</th>
+      <th>Ke</th>
+      <th>To</th>
+      <th>Pe</th>
+      <th>La</th>
+      <th>Su</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>9</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+      <td>19</td>
+      <td>20</td>
+      <td>21</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>23</td>
+      <td>24</td>
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>30</td>
+      <td>31</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

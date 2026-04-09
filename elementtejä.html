@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementit</title>
+    <link rel="stylesheet" href="burgir.css">
+
+  <nav>
+    <span class="logo">Elementtejä</span>
+    <button class="burger" id="burgerBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <div class="menu" id="menu">
+    <a href="elementtejä.html">Elementit</a>
+    <a href="muotouluja.html">Muotouluja</a>
+    <a href="">Sivu 3</a>
+    <a href="">Sivu 4</a>
+  </div>
+
+  <script>
+    const burger = document.getElementById('burgerBtn');
+    const menu = document.getElementById('menu');
+
+    burger.addEventListener('click', function () {
+      menu.classList.toggle('open');
+      burger.classList.toggle('open');
+    });
+  </script>
+
+
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+<body>
+<ul>
+    <li>Ensimmäinen lista kohta</li>
+    <li>toinen lista kohta</li>
+</ul>
+        
+</body>
+    <table>
+  <tr>
+    <th>Otsikko 1</th>
+    <th>Otsikko 2</th>
+  </tr>
+  <tr>
+    <td>Kenttä 1</td>
+    <td>Kenttä 2</td>
+  </tr>
+  <tr>
+    <td>Kenttä 1</td>
+    <td>Kenttä 2</td>
+  </tr>
+<tr>
+    <td><a href="https://www.seamk.fi/">SEAMKin sivu</a></td>
+
+</tr>
+<td><a href="https://www.seamk.fi/" target="_blank">SEAMKin sivu</a> Uudessa välilehdesssä</td>
+  </tr>
+<tr>
+    <td><h2>KUVA</h2></td>
+    <td></td>
+</tr>
+<tr>
+    <td><img src="https://rkkauppi.github.io/KL00CT67/tehtavat/multimedia/kuva.gif" alt=""></td>
+    <td></td>
+</tr>
+<tr>
+    <td><h2>VIDEO</h2></td>
+    <td></td>
+</tr>
+<tr>
+    <td><video width="740" height="550" controls>
+        <source src="https://rkkauppi.github.io/KL00CT67/tehtavat/multimedia/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video></td>
+    <td></td>
+</tr>
+
+</table>
+<body>
+</body>
+</ul>
+</html>
