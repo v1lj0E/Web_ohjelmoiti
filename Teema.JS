@@ -21,4 +21,4 @@ window.onload = function () {
   } else {
     nappi.textContent = "☀️";
   }
-};
+};  
